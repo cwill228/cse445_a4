@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Root is Hotel instead of Hotels (Error #1) -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://cwill228.github.io/cse445_a4/Hotels.xsd">
+
+	<Hotel Rating="4.2" NearstAirport="Sky Harbor">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address>
+			<Number>11</Number>
+			<Street>E. 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Missing Required Attribute (Error #2) -->
+	<Hotel Rating ="4.2">
+		<Name>Hilton Phoenix Airport</Name>
+		<Phone>480-894-1600</Phone>
+		<Address>
+			<Number>2435</Number>
+			<Street>S. 47th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Missing Phone Element (Error #3) -->
+	<Hotel Rating ="4.1" NearstAiport ="Sky Harbor">
+		<Name>Crowne Plaza Phoenix Airport</Name>
+		<Address>
+			<Number>4300</Number>
+			<Street>E. Washington St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Missing Closing Tags for Address (Error #4) -->
+	<Hotel Rating ="4.5" NearstAiport ="Sky Harbor">
+		<Name>Fairfield Inn and Suites</Name>
+		<Phone>480-967-7161</Phone>
+		<Address>
+			<Number>2222</Number>
+			<Street>S. Priest Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+	</Hotel>
+
+	<!-- Duplicate Names (Error #5) -->
+	<Hotel Rating ="3.8" NearstAiport ="Sky Harbor">
+		<Name>Extended Stay America</Name>
+		<Name>Extended Stay America</Name>
+		<Phone>480-557-8800</Phone>
+		<Address>
+			<Number>2165</Number>
+			<Street>W. 15th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating ="4.0" NearstAiport ="Sky Harbor">
+		<Name>DoubleTree</Name>
+		<Phone>480-967-1441</Phone>
+		<Address>
+			<Number>2100</Number>
+			<Street>S. Priest Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearstAiport ="Sky Harbor">
+		<Name>Drury Inn and Suites</Name>
+		<Phone>602-437-8400</Phone>
+		<Address>
+			<Number>3333</Number>
+			<Street>E. University Dr</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearstAiport ="Denver International">
+		<Name>Four Seasons Denver</Name>
+		<Phone>303-389-3000</Phone>
+		<Address>
+			<Number>1111</Number>
+			<Street>14th St</Street>
+			<City>Denver</City>
+			<State>CO</State>
+			<Zip>80202</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearstAiport ="Denver International">
+		<Name>The Ramble Hotel</Name>
+		<Phone>720-996-6300</Phone>
+		<Address>
+			<Number>1280</Number>
+			<Street>25th St</Street>
+			<City>Denver</City>
+			<State>CO</State>
+			<Zip>80205</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating ="4.5" NearstAiport ="LAX">
+		<Name>Conrad Los Angeles</Name>
+		<Phone>213-349-8585</Phone>
+		<Address>
+			<Number>100</Number>
+			<Street>S. Grand Ave</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90012</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating ="4.1" NearstAiport ="Sky Harbor">
+		<Name>Hyatt Place</Name>
+		<Phone>480-207-1578</Phone>
+		<Address>
+			<Number>601</Number>
+			<Street>E. 6th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+
+</Hotel>
