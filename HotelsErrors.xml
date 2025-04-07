@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Root is Hotel instead of Hotels (Error #1) -->
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="https://cwill228.github.io/cse445_a4/Hotels.xsd">
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<Hotel Rating="4.2" NearstAirport="Sky Harbor">
 		<Name>Westin</Name>
