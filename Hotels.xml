@@ -26,7 +26,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating ="4.1" NearstAiport ="Sky Harbor">
+	<Hotel Rating ="4.1" NearstAirport ="Sky Harbor">
 		<Name>Crowne Plaza Phoenix Airport</Name>
 		<Phone>602-273-7778</Phone>
 		<Address>
@@ -38,7 +38,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating ="4.5" NearstAiport ="Sky Harbor">
+	<Hotel Rating ="4.5" NearstAirport ="Sky Harbor">
 		<Name>Fairfield Inn and Suites</Name>
 		<Phone>480-967-7161</Phone>
 		<Address>
@@ -50,7 +50,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating ="3.8" NearstAiport ="Sky Harbor">
+	<Hotel Rating ="3.8" NearstAirport ="Sky Harbor">
 		<Name>Extended Stay America</Name>
 		<Phone>480-557-8800</Phone>
 		<Address>
@@ -62,7 +62,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating ="4.0" NearstAiport ="Sky Harbor">
+	<Hotel Rating ="4.0" NearstAirport ="Sky Harbor">
 		<Name>DoubleTree</Name>
 		<Phone>480-967-1441</Phone>
 		<Address>
@@ -74,7 +74,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearstAiport ="Sky Harbor">
+	<Hotel NearstAirport ="Sky Harbor">
 		<Name>Drury Inn and Suites</Name>
 		<Phone>602-437-8400</Phone>
 		<Address>
@@ -86,7 +86,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearstAiport ="Denver International">
+	<Hotel NearstAirport ="Denver International">
 		<Name>Four Seasons Denver</Name>
 		<Phone>303-389-3000</Phone>
 		<Address>
@@ -98,7 +98,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearstAiport ="Denver International">
+	<Hotel NearstAirport ="Denver International">
 		<Name>The Ramble Hotel</Name>
 		<Phone>720-996-6300</Phone>
 		<Address>
@@ -110,7 +110,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating ="4.5" NearstAiport ="LAX">
+	<Hotel Rating ="4.5" NearstAirport ="LAX">
 		<Name>Conrad Los Angeles</Name>
 		<Phone>213-349-8585</Phone>
 		<Address>
@@ -122,7 +122,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating ="4.1" NearstAiport ="Sky Harbor">
+	<Hotel Rating ="4.1" NearstAirport ="Sky Harbor">
 		<Name>Hyatt Place</Name>
 		<Phone>480-207-1578</Phone>
 		<Address>
